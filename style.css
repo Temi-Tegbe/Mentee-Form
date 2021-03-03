@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+}
+
+#cover {
+    background-color: #ed514a;
+}
+
+#title {
+    color: #ed514a;
+    text-align: center;
+    font-size: 50px;
+    font-family: Bradley Hand, cursive;
+}
+
+#description {
+    color: #ed514a;
+    text-align: center;
+    font-size: 35px;
+    font-family: Bradley Hand, cursive;
+    justify-content: center;
+}
+
+#survey-form {
+    margin: auto;
+    display: flex;
+    width: 700px;
+    height: 100%;
+    opacity: 0.7;
+    background-color: #ed514a;
+    font-family: Bradley Hand, cursive;
+    justify-content: center;
+}
+
+#name {
+    font-family: Bradley Hand, cursive;
+    font-size: 20px;
+    margin: auto;
+    padding: 1em;
+}
+
+#comments {
+    width: 500px;
+    height: 100px;
+}
+
+#submit {
+    margin: auto;
+}

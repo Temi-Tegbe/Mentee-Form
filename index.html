@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentee Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title"> <b> Mentee Form </b></h1>
+        <p id="description"> Please fill the form below </p>
+
+    </header>
+    <div id="cover"></div>
+    <div id="survey-form">
+        <div id="name">
+            Name: <label id="name-label"> <input type="text" placeholder="Enter your name here" required></label>
+            <br>
+            <br>
+
+            <div id="email">
+                Email: <label id="email-label"><input type="email" placeholder="Enter your email here" required></label>
+            </div>
+            <br>
+            <div id="number">
+                Number: <label id="number-label"> <input type="number" min="8" max="" placeholder="Enter your number here" required></label></div>
+            <br>
+
+            <div id="dropdown"> Years of Experience:
+                <select id="drpdown">
+              <option value="less-than-one">-1</option>
+              <option value="one-to-two">1-2</option>
+              <option value="two-to-three">2-3</option>
+              <option value="three-to-five">3-5</option>
+            </select>
+            </div>
+
+            <br>
+            <p>Form of mentorship:</p>
+
+            <label>
+            <input type="radio" name="online-offline">Online</label>
+            <label> <input type="radio" name="online-offline">Offline</label>
+            <br>
+
+            <p> Skills:</p>
+            <label for="Javascript"><input id="Javascript" type="checkbox" value="Javascript" name="skill-set"> Javascript</label>
+            <br>
+
+            <label for="CSS"><input id="CSS" type="checkbox" value="CSS" name="skill-set"> CSS</label>
+            <br>
+            <label for="C-sharp"><input id="C-sharp" type="checkbox" value="C#" name="skill-set">C#</label>
+            <br>
+            <label for="C-plus-plus"><input id="C-plus-plus" type="checkbox" value="C++" name="skill-set"> C++</label>
+            <br>
+            <label for="C"><input id="C" type="checkbox" value="C" name="skill-set">C</label>
+            <br>
+            <br>
+            <label for="comments"> Comments:
+            <br>
+            <textarea id="comments" name="comments"></textarea></label>
+            <br>
+            <button id="submit" type="submit">Submit</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
